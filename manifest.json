@@ -1,11 +1,11 @@
 {
-    "name": "learn",
-    "short_name": "learn",
+    "name": "RC_Score_Judge",
+    "short_name": "RC_Score_Judge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Learn Project",
+    "description": "RC_Score_Judge Project",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
