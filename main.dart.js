@@ -26508,14 +26508,14 @@ _.a=a
 _.b=b
 _.c=c
 _.d=d},
-aK3(a,b,c,d,e){var s,r=null,q=A.b([],t.Io),p=t.r8,o=t.N
+aK3(a,b,c,d,e,f){var s,r=null,q=A.b([],t.Io),p=t.r8,o=t.N
 p=A.ar(["open",A.b([],p),"close",A.b([],p),"error",A.b([],p),"message",A.b([],p)],o,t.Ch)
 s=A.dL(a+"/websocket",0,r)
 s=s.B5(0,r).gnu()
 o=A.dU(B.Kb,o,o)
 o.O(0,b)
 q=new A.M8(q,s,o,e,A.aR8(),[],p)
-q.a2X(a,r,r,b,3e4,c,d,r,2e4,e,r,B.n6,r)
+q.a2X(a,r,r,b,3e4,c,d,r,2e4,e,r,f,r)
 return q},
 aac:function aac(){},
 M8:function M8(a,b,c,d,e,f,g){var _=this
@@ -26957,7 +26957,7 @@ o=t.N
 n=A.dU(B.Ka,o,o)
 m=A.i3(b+"/realtime/v1","http","ws")
 l=b+"/auth/v1"
-k=A.dU(B.Ke,o,o)
+k=A.dU(B.Kd,o,o)
 k.O(0,n)
 n=new A.agf()
 n.fK(0)
@@ -26987,7 +26987,7 @@ l=new A.wz(A.aK(t.lZ))
 h=new A.H8(l,h,a)
 j.y=h
 l=A.dU(k,o,o)
-A.dU(B.Kd,o,o).O(0,l)
+A.dU(B.Ke,o,o).O(0,l)
 j.ax=new A.a9r(n,!0)
 l=A.dU(k,o,o)
 A.dU(B.K5,o,o).O(0,l)
@@ -26999,7 +26999,7 @@ n=A.ar(["apikey",a],o,t.z)
 o=A.z(o,o)
 o.n(0,"apikey",a)
 o.O(0,k)
-j.at=A.aK3(m,o,h,null,n)
+j.at=A.aK3(m,o,h,null,n,B.n6)
 j.aaW()
 c.b=j
 c.a=!0
@@ -94001,12 +94001,12 @@ B.yO=new A.ah(B.bu,!0,!0,!1,!1,B.l)
 B.yP=new A.ah(B.bv,!0,!0,!1,!1,B.l)
 B.K9=new A.cC([B.l2,B.E,B.l_,B.E,B.l0,B.E,B.l1,B.E,B.yU,B.E,B.yR,B.E,B.yS,B.E,B.yT,B.E,B.eW,B.E,B.hY,B.E,B.hZ,B.E,B.eV,B.E,B.yM,B.E,B.yN,B.E,B.yO,B.E,B.yP,B.E,B.i_,B.E,B.i0,B.E],t.Fp)
 B.dl={"X-Client-Info":0}
-B.Ka=new A.br(B.dl,["supabase-flutter/2.5.3"],t.o)
-B.Kb=new A.br(B.dl,["realtime-dart/2.0.4"],t.o)
+B.Ka=new A.br(B.dl,["supabase-flutter/2.5.4"],t.o)
+B.Kb=new A.br(B.dl,["realtime-dart/2.1.0"],t.o)
 B.Kc=new A.br(B.dl,["gotrue-dart/2.7.0"],t.o)
-B.Kd=new A.br(B.dl,["postgrest-dart/2.1.2"],t.o)
-B.Ke=new A.br(B.dl,["supabase-dart/2.1.3"],t.o)
-B.Kf=new A.br(B.dl,["storage-dart/2.0.1"],t.o)
+B.Kd=new A.br(B.dl,["supabase-dart/2.2.0"],t.o)
+B.Ke=new A.br(B.dl,["postgrest-dart/2.1.2"],t.o)
+B.Kf=new A.br(B.dl,["storage-dart/2.0.2"],t.o)
 B.b7={}
 B.km=new A.br(B.b7,[],A.ap("br<ig,R>"))
 B.tY=new A.br(B.b7,[],A.ap("br<K,uS>"))
